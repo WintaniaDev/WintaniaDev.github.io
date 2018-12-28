@@ -11,7 +11,7 @@ body{
    justify-content: center;
 }
 
-a{  
+/*a{  
 	position: relative;
 	padding: 15px 40px;
 	border: 2px solid white;
@@ -98,7 +98,7 @@ a:hover:after{
 	transform: translate(-50%,-50%);
 	
  
-}
+}*/
 
 .container{
 	text-align: center;
