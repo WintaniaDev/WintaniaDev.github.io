@@ -9,12 +9,25 @@ body{
    background: #2f3640;
 }
 
+a{
+	color: #0984e3;
+}
+a:hover{
+	color: #d63031;
+}
+
 h2{
 	text-transform: uppercase;
 	margin-bottom: 10px;
 	color: #2f3640;
 }
 
+.Btback{
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
 
 span{
 	font-weight: 400;

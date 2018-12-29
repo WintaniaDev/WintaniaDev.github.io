@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="Style/Swiper/swiper.min.css">
+<link rel="stylesheet" href="Style/Home.css">
+<title>HomePage</title>
+</head>
+<body>
+	 <div class="swiper-container">
+	    <div class="swiper-wrapper">
+	      <div class="swiper-slide" ">
+		      	<div class="imgBox">
+		      		<img src="Image/Num1.jpg" id="M1">
+		      	</div>
+		      	<div class="details">
+		      		<h3>Catagory<br><span>Countdown to 2019</span></h3>
+		      	</div>
+	      </div>
+	      <div class="swiper-slide" ">
+		      	<div class="imgBox">
+		      		<img src="Image/Num2.jpg" id="M2">
+		      	</div>
+		      	<div class="details">
+		      		<h3>Catagory<br><span>CardFlip</span></h3>
+		      	</div>
+	      </div>
+	      <div class="swiper-slide" ">
+		      	<div class="imgBox">
+		      		<img src="Image/X.png" id="M3">
+		      	</div>
+		      	<div class="details">
+		      		<h3>Catagory<br><span>No Valid</span></h3>
+		      	</div>
+	      </div>
+	      <div class="swiper-slide" ">
+		      	<div class="imgBox">
+		      		<img src="Image/X.png" id="M4">
+		      	</div>
+		      	<div class="details">
+		      		<h3>Catagory<br><span>No Valid</span></h3>
+		      	</div>
+	      </div>
+	      <div class="swiper-slide" ">
+		      	<div class="imgBox">
+		      		<img src="Image/X.png" id="M5">
+		      	</div>
+		      	<div class="details">
+		      		<h3>Catagory<br><span>No Valid</span></h3>
+		      	</div>
+	      </div>
+	      <div class="swiper-slide" ">
+		      	<div class="imgBox">
+		      		<img src="Image/X.png" id="M6">
+		      	</div>
+		      	<div class="details">
+		      		<h3>Catagory<br><span>No Valid</span></h3>
+		      	</div>
+	      </div>
+	    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+
+<script type="text/javascript" src="Style/Swiper/swiper.min.js"></script>
+<script type="text/javascript" src="src/js/Home.js"></script>
+ <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 40,
+        stretch: 0,
+        depth:200,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>
